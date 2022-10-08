@@ -235,7 +235,7 @@ a {
 }
 
 .projects {
-  margin-top: 20rem;
+  padding: 12rem 4rem;
   position: relative;
   top: 43rem;
   height: 100vh;
