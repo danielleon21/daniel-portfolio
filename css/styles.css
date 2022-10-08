@@ -235,7 +235,7 @@ a {
 }
 
 .projects {
-  padding: 16rem 4rem;
+  margin: 10rem;
   position: relative;
   top: 43rem;
   height: 100vh;
@@ -260,7 +260,7 @@ a {
 @media (min-width: 768px) {
   .projects {
     top: 0;
-    padding: 0;
+    margin: 0;
   }
 }
 
