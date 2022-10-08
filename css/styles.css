@@ -249,6 +249,7 @@ a {
 @media (min-width: 768px) {
   .projects {
     top: 0;
+    padding: 0;
   }
 }
 
