@@ -235,6 +235,7 @@ a {
 }
 
 .projects {
+  margin-top: 20rem;
   position: relative;
   top: 43rem;
   height: 100vh;
@@ -314,13 +315,21 @@ a {
 }
 
 .footer {
+  margin: 8rem 0;
   position: relative;
-  bottom: 4rem;
+  bottom: 10rem;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    margin: 0;
+    bottom: 16rem;
+  }
 }
 
 .footer__paragraph {
@@ -332,4 +341,11 @@ a {
   align-items: center;
   justify-content: space-around;
   gap: 5rem;
+  margin: 8rem 0;
+}
+
+@media (min-width: 768px) {
+  .socials {
+    margin: 0;
+  }
 }
