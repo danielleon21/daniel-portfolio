@@ -235,7 +235,7 @@ a {
 }
 
 .projects {
-  padding: 12rem 4rem;
+  padding: 16rem 4rem;
   position: relative;
   top: 43rem;
   height: 100vh;
@@ -244,6 +244,17 @@ a {
   gap: 4rem;
   justify-content: center;
   align-items: center;
+}
+
+.projects__heading {
+  text-align: center;
+  margin: 5rem;
+}
+
+@media (min-width: 768px) {
+  .projects__heading {
+    margin: 0;
+  }
 }
 
 @media (min-width: 768px) {
